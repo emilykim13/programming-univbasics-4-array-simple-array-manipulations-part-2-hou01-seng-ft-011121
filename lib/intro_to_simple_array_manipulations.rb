@@ -7,9 +7,7 @@ def using_concat(array1, array2)
 end
 
 def using_insert(array, element)
-  @list_of_programming_languages = ["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"]
-  another_lanuage = ["Python"]
-  @new_array = @list_of_programming_languages.insert(another_lanuage)
+  array.insert(element)
 # no clue
 end
 
@@ -26,7 +24,6 @@ end
 def using_delete(array, string)
   array.delete(string)
   #binding.pry
-# should work?
 end
 
 def using_delete_at(array, integer)
