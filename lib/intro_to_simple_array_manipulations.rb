@@ -1,3 +1,4 @@
+require 'pry'
 def using_concat(array1, array2)
   @my_favorite_things = ["raindrops on roses", "whiskers on kittens"]
   more_favs = ["sports cars", "flatiron school"]
@@ -25,6 +26,7 @@ end
 def using_delete(array, string)
   instructors = ["Josh", "Steven", "Sophie", "Steven", "Amanda", "Steven"]
   no_offense_steven = instructors.delete("Steven")
+  binding.pry
 # should work?
 end
 
