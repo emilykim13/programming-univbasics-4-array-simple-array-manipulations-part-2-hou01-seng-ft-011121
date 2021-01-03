@@ -6,9 +6,9 @@ def using_concat(array1, array2)
 end
 
 def using_insert(array, element)
-  list_of_programming_languages = ["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"]
+  @list_of_programming_languages = ["Ruby", "JavaScript", "Java", "C#", "Objective C", "C++", "PHP"]
   another_lanuage = ["Python"]
-  new_array = list_of_programming_languages.insert(another_lanuage)
+  new_array = @list_of_programming_languages.insert(another_lanuage)
 # no clue
 end
 
